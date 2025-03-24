@@ -12,6 +12,15 @@ function firstLetter(array){
     return firstLetterNames;
 }
 
+//BONUS
+const firstLetterArrow = (array) => {
+    const firstLetterNames = [];
+    for(let i = 0; i < array.length; i++){
+        firstLetterNames.push(array[i][0])
+    }
+    return firstLetterNames;
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 console.log(firstLetter(names));
 
