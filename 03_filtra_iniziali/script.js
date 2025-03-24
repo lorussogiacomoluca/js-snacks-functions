@@ -4,7 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function letterForNames(letter, array){
+    const wordWithLetter = [];
+    for(let i = 0; i < array.length; i++){
+        if(array[i][0].toLowerCase() === letter){
+            wordWithLetter.push(array[i])
+        }
+    }
+    return wordWithLetter
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
