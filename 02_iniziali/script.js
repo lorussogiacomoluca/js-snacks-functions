@@ -13,6 +13,6 @@ function firstLetter(array){
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(firstLetter(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
