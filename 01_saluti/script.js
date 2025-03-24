@@ -6,6 +6,11 @@ const userName = 'Mario';
 // Dichiara la funzione qui.
 const saluta = (nome) => `Ciao, ${nome}`;
 
+//BONUS
+function salutaFunction(nome){
+    return `Ciao, ${nome}`
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 console.log(saluta(userName));
 
