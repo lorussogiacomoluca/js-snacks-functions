@@ -20,7 +20,7 @@ function countVowels(word){
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(countVowels(word));
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
