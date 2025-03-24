@@ -14,6 +14,16 @@ function letterForNames(letter, array){
     return wordWithLetter
 }
 
+const letterForNamesArrow = (letter, array) => {
+    const wordWithLetter = [];
+    for(let i = 0; i < array.length; i++){
+        if(array[i][0].toLowerCase() === letter){
+            wordWithLetter.push(array[i])
+        }
+    }
+    return wordWithLetter
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 console.log(letterForNames('a', names));
 
